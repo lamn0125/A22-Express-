@@ -7,7 +7,7 @@ const exphbs = require('express-handlebars')
 app.engine('handlebars', exphbs({ defaultLayout: 'main'}))
 app.set('view engine', 'handlebars')
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.render('index')
@@ -24,6 +24,7 @@ app.get('/portfolio', (req, res) => {
 app.get('/contact', (req, res) => {
   res.render('contact')
 })
+
 
 app.listen(port, () => {
   console.log(`Express running on localhost:${port}`)
