@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  border: #e0e0e0;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+}
+
+header {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid red;
+}
