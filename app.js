@@ -13,18 +13,10 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
-app.get('/about', (req, res) => {
-  res.render('about')
+app.get('/:page', (req, res) => {
+    const page = req.params.page
+    res.render('website', {page})
 })
-
-app.get('/portfolio', (req, res) => {
-  res.render('portfolio')
-})
-
-app.get('/contact', (req, res) => {
-  res.render('contact')
-})
-
 
 app.listen(port, () => {
   console.log(`Express running on localhost:${port}`)
