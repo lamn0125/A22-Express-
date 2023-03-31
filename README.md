@@ -1,5 +1,8 @@
 # A22-Express-基礎驗收
 
+<img width="1392" alt="截圖 2023-03-31 上午9 11 13" src="https://user-images.githubusercontent.com/123957783/228997869-3a8a0f03-d0c8-4087-8b69-6bc6981f16bc.png">
+
+
 功能：
 使用者可從index首頁點選左上方按鍵切換至不同頁面(About/Portfolio/Contact)，點選"回到首頁"即可回到首頁。
 
