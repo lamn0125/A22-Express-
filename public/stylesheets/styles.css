@@ -25,10 +25,9 @@ header {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  /* border: 1px solid red; */
 }
 
-.index {
+#index {
   position: absolute;
   top: 0;
   left: 0;
